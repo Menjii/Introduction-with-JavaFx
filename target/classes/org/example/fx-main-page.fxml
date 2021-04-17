@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<GridPane alignment="center" hgap="5" vgap="5" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MainPageController"
+            stylesheets="/css/sample.css">
+      <Label GridPane.rowIndex="1" GridPane.halignment="CENTER" text="Primary View" />
+      <Button fx:id="databaseActionsButton" GridPane.columnIndex="0" text="Database actions" onAction="#switchToDatabaseActions"/>
+      <Button fx:id="mailActionsButton" GridPane.columnIndex="1" text="Mail actions" onAction="#switchToMailActions"/>
+</GridPane>

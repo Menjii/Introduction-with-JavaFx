@@ -1,0 +1,17 @@
+.root {
+    -fx-background-color: bisque;
+}
+
+.label {
+    -fx-font-size: 20;
+}
+
+#databaseActionsButton {
+    -fx-background-radius: 5.0;
+    -fx-padding: 8;
+}
+
+#mailActionsButton {
+    -fx-background-radius: 5.0;
+    -fx-padding: 8;
+}
